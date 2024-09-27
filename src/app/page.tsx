@@ -4,8 +4,8 @@ export default function Home() {
           {/* Hero Section */}
           <section className="relative w-full h-[400px] bg-cover bg-center rounded-lg" style={{ backgroundImage: 'url(/images/school.jpg)' }}>
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center rounded-lg">
-              <h2 className="text-4xl font-bold text-white">Миссия лицея</h2>
-              <p className="text-xl text-white max-w-3xl text-center mt-4">Используя достижения педагогической науки, обучать на основе новых технологий, готовить качественные рабочие кадры, которые хорошо знают свою профессию, любят Родину, вносят свой вклад в экономику государства, выдерживают рыночные отношения и могут работать на производстве.</p>
+              <h2 className="text-2xl md:text-4xl font-bold text-white">Миссия лицея</h2>
+              <p className="md:text-xl text-white max-w-3xl text-center mt-4">Используя достижения педагогической науки, обучать на основе новых технологий, готовить качественные рабочие кадры, которые хорошо знают свою профессию, любят Родину, вносят свой вклад в экономику государства, выдерживают рыночные отношения и могут работать на производстве.</p>
             </div>
           </section>
 
