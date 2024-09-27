@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Head from 'next/head';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -16,6 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <body className={`${inter.className} flex flex-col min-h-screen bg-gray-100`}>
         {/* Header Section */}
         <header className="bg-blue-900 text-white p-6 shadow-lg">
